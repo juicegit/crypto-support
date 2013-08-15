@@ -1,0 +1,2 @@
+#!/bin/sh
+gpg -v -v -d "$1" 2> /dev/null || cat $1
